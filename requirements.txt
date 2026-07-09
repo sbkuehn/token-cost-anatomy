@@ -1,0 +1,17 @@
+# token-cost-anatomy
+# Author  : Shannon Eldridge-Kuehn
+# Verified: Python 3.11+
+#
+# Core
+anthropic>=0.25.0
+
+# Embeddings - Anthropic recommends Voyage AI
+# https://docs.anthropic.com/en/docs/build-with-claude/embeddings
+voyageai>=0.2.0
+
+# Observability (optional - for wiring tracked_call into your OTel pipeline)
+opentelemetry-api>=1.24.0
+opentelemetry-sdk>=1.24.0
+
+# Testing
+pytest>=8.0.0
