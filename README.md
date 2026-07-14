@@ -14,11 +14,11 @@ cost controls, not just dashboards.
 ```
 token-cost-anatomy/
 ├── src/
-│   └── ├── pricing.py           # Centralized price book and cost_of() helper
-│       ├── prompt_caching.py    # Input token optimization via prefix caching
-│       ├── structured_output.py # Output token optimization via JSON schema
-│       ├── embedding_cache.py   # Embedding token optimization via content hashing
-│       └── tracked_call.py      # Cost attribution wrapper - chargeback foundation
+│   └── pricing.py           # Centralized price book and cost_of() helper
+│       prompt_caching.py    # Input token optimization via prefix caching
+│       structured_output.py # Output token optimization via JSON schema
+│       embedding_cache.py   # Embedding token optimization via content hashing
+│       tracked_call.py      # Cost attribution wrapper - chargeback foundation
 ├── examples/
 │   └── example_pipeline.py      # End-to-end pipeline combining all modules
 ├── tests/
